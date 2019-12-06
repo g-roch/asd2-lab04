@@ -50,6 +50,7 @@ namespace std
             //we use stl hash function for string type on name, we could do much better...
             /* A AMELIORER */ 
            size_t hash = 17;
+           
             hash = 31*hash + std::hash<string>()(d.getName());
             hash = 31*hash + std::hash<string>()(d.getFirstname());
             hash = 31*hash + std::hash<string>()(d.getGender());

@@ -7,8 +7,8 @@
 //  Copyright © 2015 IICT, HEIG-VD. All rights reserved.
 //
 
-#define FILENAME "liste1.txt"
-//#define FILENAME "liste2.txt"
+//#define FILENAME "liste1.txt"
+#define FILENAME "liste2.txt"
 #define MAX_LOAD_FACTOR 0.5f
 
 #include <cstdlib>
